@@ -1,5 +1,6 @@
 const Restaurants = require("../models/Restaurants")
 
+
 async function getRestaurants(req, res, next){
     try{
     const allData = await Restaurants.find()
