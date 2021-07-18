@@ -9,6 +9,10 @@ const userSchema = mongoose.Schema({
     type: String,
     required: true,
   },
+  restaurants: {
+    type: Object,
+    required: true,
+  },
   date: {
     type: Date,
     default: Date.now,
